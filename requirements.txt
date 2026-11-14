@@ -1,0 +1,9 @@
+# Python 3.12 environment used for the pilot reproduction.
+numpy==2.5.1
+scipy==1.18.0
+matplotlib==3.11.1
+requests==2.34.2
+rasterio==1.5.1
+pyproj==3.7.2
+shapely==2.1.2
+Pillow==12.3.0

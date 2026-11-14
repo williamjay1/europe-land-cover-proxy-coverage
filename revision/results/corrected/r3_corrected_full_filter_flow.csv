@@ -1,0 +1,8 @@
+step,before,excluded_at_step,remaining
+source rows,149408,0,149408
+POINT_COPERNICUS equals 1,149408,0,149408
+SURVEY_CPRN_CANDO equals 1,149408,11384,138024
+class starts A through H,138024,11,138013
+valid theoretical geographic coordinates,138013,0,138013
+four finite integral 0 to 51 m distances,138013,0,138013
+SURVEY_DATE starts 2022-,138013,1408,136605

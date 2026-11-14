@@ -1,0 +1,116 @@
+{
+  "input": "data_raw/lucas_2022/l2022_survey_cop.csv",
+  "filtering_rule": "POINT_COPERNICUS=1, SURVEY_CPRN_CANDO=1, a valid broad LUCAS class and WorldCover bridge, valid coordinates and four cardinal distance fields, and a 2022 survey date.",
+  "support_definition": "Intersection fraction between the released cardinal distance quadrilateral and a centered nominal 10 m by 10 m square in EPSG:3035. This is a release wide reference geometry diagnostic, not the exact WorldCover COG pixel support used in the map comparison.",
+  "overall": {
+    "n": 128082,
+    "mean": 0.7576319768481996,
+    "median": 1.0,
+    "p10": 0.1025,
+    "p90": 1.0,
+    "below_025_n": 22831,
+    "below_050_n": 33076,
+    "at_least_075_n": 87189,
+    "at_least_095_n": 80001
+  },
+  "by_broad_class": [
+    {
+      "broad_class": "A",
+      "n": 13683,
+      "mean": 0.16941393235531996,
+      "median": 0.1,
+      "p10": 0.03,
+      "p90": 0.39,
+      "below_025_n": 11202,
+      "below_050_n": 12719,
+      "at_least_075_n": 471,
+      "at_least_095_n": 280
+    },
+    {
+      "broad_class": "B",
+      "n": 37011,
+      "mean": 0.8541617321283985,
+      "median": 1.0,
+      "p10": 0.33894736842717976,
+      "p90": 1.0,
+      "below_025_n": 2980,
+      "below_050_n": 5503,
+      "at_least_075_n": 29382,
+      "at_least_095_n": 27318
+    },
+    {
+      "broad_class": "C",
+      "n": 35347,
+      "mean": 0.8916632443090855,
+      "median": 1.0,
+      "p10": 0.4549999999953434,
+      "p90": 1.0,
+      "below_025_n": 1967,
+      "below_050_n": 3807,
+      "at_least_075_n": 29804,
+      "at_least_095_n": 27901
+    },
+    {
+      "broad_class": "D",
+      "n": 6108,
+      "mean": 0.79671158801981,
+      "median": 1.0,
+      "p10": 0.21067647059145383,
+      "p90": 1.0,
+      "below_025_n": 701,
+      "below_050_n": 1282,
+      "at_least_075_n": 4343,
+      "at_least_095_n": 3842
+    },
+    {
+      "broad_class": "E",
+      "n": 31460,
+      "mean": 0.7389610372043444,
+      "median": 1.0,
+      "p10": 0.125,
+      "p90": 1.0,
+      "below_025_n": 5337,
+      "below_050_n": 8719,
+      "at_least_075_n": 20081,
+      "at_least_095_n": 17847
+    },
+    {
+      "broad_class": "F",
+      "n": 3504,
+      "mean": 0.7934335417629924,
+      "median": 1.0,
+      "p10": 0.175,
+      "p90": 1.0,
+      "below_025_n": 457,
+      "below_050_n": 763,
+      "at_least_075_n": 2509,
+      "at_least_095_n": 2282
+    },
+    {
+      "broad_class": "G",
+      "n": 239,
+      "mean": 0.4692897709321408,
+      "median": 0.28,
+      "p10": 0.0,
+      "p90": 1.0,
+      "below_025_n": 113,
+      "below_050_n": 137,
+      "at_least_075_n": 84,
+      "at_least_095_n": 75
+    },
+    {
+      "broad_class": "H",
+      "n": 730,
+      "mean": 0.799380085194362,
+      "median": 1.0,
+      "p10": 0.245,
+      "p90": 1.0,
+      "below_025_n": 74,
+      "below_050_n": 146,
+      "at_least_075_n": 515,
+      "at_least_095_n": 456
+    }
+  ],
+  "figure_file": "data_processed/lucas_exact_analysis/figures/fig1_release_support.png",
+  "interpretation": "This is a complete descriptive audit of records retained by the stated released file filter. It carries no external area weights and is not a European land cover population estimate."
+}

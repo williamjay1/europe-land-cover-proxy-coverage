@@ -1,0 +1,82 @@
+{
+  "n": 136605,
+  "invalid_fixed_n": 2434,
+  "rule": "pandas Series.round(10) before comparisons",
+  "scales": {
+    "10": {
+      "max_abs_difference": 3.991385000290393e-11,
+      "thresholds": {
+        "0.25": {
+          "projected_count": 23347,
+          "local_count": 23347,
+          "membership_mismatches": 0
+        },
+        "0.5": {
+          "projected_count": 34490,
+          "local_count": 34490,
+          "membership_mismatches": 0
+        },
+        "0.75": {
+          "projected_count": 43460,
+          "local_count": 43460,
+          "membership_mismatches": 0
+        },
+        "0.95": {
+          "projected_count": 83821,
+          "local_count": 83821,
+          "membership_mismatches": 0
+        }
+      }
+    },
+    "20": {
+      "max_abs_difference": 1.964961526823572e-11,
+      "thresholds": {
+        "0.25": {
+          "projected_count": 35520,
+          "local_count": 35520,
+          "membership_mismatches": 0
+        },
+        "0.5": {
+          "projected_count": 49409,
+          "local_count": 49409,
+          "membership_mismatches": 0
+        },
+        "0.75": {
+          "projected_count": 59797,
+          "local_count": 59797,
+          "membership_mismatches": 0
+        },
+        "0.95": {
+          "projected_count": 66589,
+          "local_count": 66589,
+          "membership_mismatches": 0
+        }
+      }
+    },
+    "30": {
+      "max_abs_difference": 1.6293077997886485e-11,
+      "thresholds": {
+        "0.25": {
+          "projected_count": 43883,
+          "local_count": 43883,
+          "membership_mismatches": 0
+        },
+        "0.5": {
+          "projected_count": 59488,
+          "local_count": 59488,
+          "membership_mismatches": 0
+        },
+        "0.75": {
+          "projected_count": 71308,
+          "local_count": 71308,
+          "membership_mismatches": 0
+        },
+        "0.95": {
+          "projected_count": 51244,
+          "local_count": 51244,
+          "membership_mismatches": 0
+        }
+      }
+    }
+  }
+}

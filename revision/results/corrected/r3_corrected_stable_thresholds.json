@@ -1,0 +1,57 @@
+{
+  "rule": "Round fractions to 10 decimal places before applying fixed cutoffs; means and medians use unrounded values.",
+  "overall": {
+    "10": {
+      "below_025": 23347,
+      "below_050": 34490,
+      "below_075": 43460,
+      "at_least_095": 83821
+    },
+    "20": {
+      "below_025": 35520,
+      "below_050": 49409,
+      "below_075": 59797,
+      "at_least_095": 66589
+    },
+    "30": {
+      "below_025": 43883,
+      "below_050": 59488,
+      "below_075": 71308,
+      "at_least_095": 51244
+    }
+  },
+  "class_10m": {
+    "A": {
+      "below_025": 11434,
+      "at_least_095": 335
+    },
+    "B": {
+      "below_025": 3014,
+      "at_least_095": 28564
+    },
+    "C": {
+      "below_025": 2034,
+      "at_least_095": 28866
+    },
+    "D": {
+      "below_025": 721,
+      "at_least_095": 4088
+    },
+    "E": {
+      "below_025": 5483,
+      "at_least_095": 19014
+    },
+    "F": {
+      "below_025": 471,
+      "at_least_095": 2380
+    },
+    "G": {
+      "below_025": 116,
+      "at_least_095": 77
+    },
+    "H": {
+      "below_025": 74,
+      "at_least_095": 497
+    }
+  }
+}

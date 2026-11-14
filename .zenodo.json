@@ -1,0 +1,11 @@
+{
+  "title": "Geometric Proxy Coverage Reveals Validation Sensitivity For WorldCover Across Europe: Data and Code",
+  "upload_type": "software",
+  "description": "Analysis code and derived datasets for a geometric proxy coverage audit using LUCAS Copernicus 2022 and ESA WorldCover 2021 v200. Includes the corrected frame, historical and corrected samples, and sensitivity diagnostics. Consult README for source attribution, reuse conditions and reproduction limits.",
+  "creators": [
+    {"name": "Zhang, Junjie", "affiliation": "Shanghai International Studies University"},
+    {"name": "Wang, Siyu", "affiliation": "Shanghai International Studies University"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["land cover validation", "LUCAS", "WorldCover", "geometric proxy coverage", "Europe"]
+}

@@ -1,0 +1,13 @@
+{
+  "conditions": 1599,
+  "pixel_class_mismatches": 0,
+  "hard_mismatches": 0,
+  "max_abs_difference": {
+    "quad_r": 1.1781686737322161e-11,
+    "rad_r": 2.4378055130114262e-11,
+    "quad_p": 0.0,
+    "rad_p": 6.3976601794024646e-15,
+    "quad_c": 1.1781575715019699e-11,
+    "rad_c": 2.437799961896303e-11
+  }
+}

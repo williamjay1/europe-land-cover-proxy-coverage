@@ -1,0 +1,45 @@
+{
+  "input": "data_processed/lucas_cog_exact_pilot.csv",
+  "year": "2021",
+  "scenarios": {
+    "baseline": "The deterministic published code bridge used for the primary score convention.",
+    "one_step": "A stress scenario allowing one adjacent or special WorldCover class for selected broad groups.",
+    "permissive": "A wider stress scenario allowing additional adjacent or special classes."
+  },
+  "interpretation": "Candidate sets are bridge stress scenarios, not expert validated semantic probabilities. They test whether the finite sample score conventions depend on the legend crosswalk.",
+  "results": [
+    {
+      "scenario": "baseline",
+      "year": "2021",
+      "n": 800,
+      "matched_n": 285,
+      "changed_from_baseline_n": 0,
+      "hard_match_score": 0.35625,
+      "proxy_supported_match_score": 0.2916572599955587,
+      "residual_compatible_score": 0.6293382684653802,
+      "mean_scenario_span": 0.3376810084698215
+    },
+    {
+      "scenario": "one_step",
+      "year": "2021",
+      "n": 800,
+      "matched_n": 353,
+      "changed_from_baseline_n": 68,
+      "hard_match_score": 0.44125,
+      "proxy_supported_match_score": 0.36058563774366803,
+      "residual_compatible_score": 0.6982666462134896,
+      "mean_scenario_span": 0.3376810084698215
+    },
+    {
+      "scenario": "permissive",
+      "year": "2021",
+      "n": 800,
+      "matched_n": 386,
+      "changed_from_baseline_n": 101,
+      "hard_match_score": 0.4825,
+      "proxy_supported_match_score": 0.37681909434888866,
+      "residual_compatible_score": 0.7145001028187101,
+      "mean_scenario_span": 0.3376810084698215
+    }
+  ]
+}

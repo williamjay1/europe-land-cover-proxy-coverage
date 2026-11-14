@@ -1,0 +1,36 @@
+{
+  "gps_valid_wgs84_n": 799,
+  "condition_count": 1599,
+  "completed_conditions": 1599,
+  "completed_theoretical": 800,
+  "completed_gps": 799,
+  "paired_n": 799,
+  "failures": [],
+  "tiles_attempted_this_run": 85,
+  "tile_seconds_sum": 291.8760000001639,
+  "wall_seconds_fetch": 73.90600000019185,
+  "wall_seconds_total": 74.67200000002049,
+  "workers": 4,
+  "theoretical_metrics": {
+    "hard_match": 0.35125,
+    "quad_r": 0.6580421793689684,
+    "rad_r": 0.7305488614043321,
+    "quad_p": 0.27815132520217406,
+    "rad_p": 0.29749884672174143,
+    "quad_c": 0.6201091458332055,
+    "rad_c": 0.5669499853174093,
+    "n": 800,
+    "quad_r_below_025": 219
+  },
+  "gps_metrics": {
+    "hard_match": 0.3341677096370463,
+    "quad_r": 0.6554467937741204,
+    "rad_r": 0.7251822175763821,
+    "quad_p": 0.2679466468142492,
+    "rad_p": 0.28277683927089964,
+    "quad_c": 0.6124998530401289,
+    "rad_c": 0.5575946216945176,
+    "n": 799,
+    "quad_r_below_025": 220
+  }
+}
