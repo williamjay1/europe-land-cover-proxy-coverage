@@ -1,0 +1,2 @@
+# Preserve original CSV bytes, including line endings, for provenance checks.
+*.csv -text

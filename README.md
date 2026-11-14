@@ -13,6 +13,8 @@ This archive contains analysis scripts and derived data for the manuscript *Geom
 
 The original source CSV and WorldCover rasters are not included. Files with point IDs and coordinate fields are linkable to public LUCAS records and should not be represented as anonymized. Several result JSON files retain recorded provenance; the local path fields in two files were replaced with the public input filename before release, without changing results.
 
+Version 1.0.1 preserves CSV bytes and their original line endings. In version 1.0.0 Git normalized line endings, which did not alter the parsed numbers but changed CSV file hashes. The historical frozen sample in this version retains its recorded SHA-256 `38548ae18b4a01a657e64896a21b6017abc48665b87e7117dd9aa3940c245809`.
+
 ## Original data and attribution
 
 - European Commission, Joint Research Centre, LUCAS Copernicus 2022: https://doi.org/10.2905/JRC.XVTS8YG. The input was `l2022_survey_cop.csv`, available in the JRC data directory: https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/LUCAS/LUCAS_2022_Copernicus/output/. The local input used for the analysis had SHA-256 `b5d5414fd8058bb1067496080883138a819700c21c9300c82f4a31cfe1528d6f`. See the directory's `copyright.txt` for the original licence and attribution notice.
